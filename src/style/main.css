@@ -1,0 +1,59 @@
+.main-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 1366px;
+	width: 100%;
+	z-index: -1;
+}
+
+.main {
+	background-image: url('../img/1.png');
+	z-index: -1;
+	position: absolute;
+}
+
+.minuse-btn {
+	border-radius: 82%;
+	width: 67px;
+	height: 67px;
+	background-image: url('../img/minuse-btn.png');
+	border: none;
+}
+
+.minuse-btn:hover {
+	background-image: url('../img/minuse-btn-hover.png');
+}
+
+.plus-btn {
+	border-radius: 82%;
+	width: 67px;
+	height: 67px;
+	background-image: url('../img/plus-btn.png');
+	border: none;
+}
+
+.plus-btn:hover {
+	background-image: url('../img/plus-btn-hover.png');
+}
+
+.setNum {
+	display: flex;
+	width: 27%;
+	margin-left: 38%;
+	margin-top: 412px;
+	justify-content: space-between;
+}
+
+.disconnect {
+	background-image: url('../img/disconnect.png');
+	width: 24%;
+	height: 59px;
+	margin-left: -2%;
+	margin-top: 170px;
+	border: none;
+}
+
+.disconnect:hover {
+	background-image: url('../img/disconnect-hover.png');
+}
